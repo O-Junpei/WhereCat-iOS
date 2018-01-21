@@ -10,12 +10,13 @@
 		29706F33478BDBAF8CAACA5C /* Pods_WhereCat_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F4704B1D9FCD7FE0668DC7 /* Pods_WhereCat_iOS.framework */; };
 		747BC633E846579E11C42241 /* Pods_WhereCat_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2EAB7731737987C898F53C /* Pods_WhereCat_iOSTests.framework */; };
 		8DA94BF9201515330063B3F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA94BF8201515330063B3F4 /* AppDelegate.swift */; };
-		8DA94BFB201515330063B3F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA94BFA201515330063B3F4 /* ViewController.swift */; };
+		8DA94BFB201515330063B3F4 /* TitleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA94BFA201515330063B3F4 /* TitleVC.swift */; };
 		8DA94BFE201515330063B3F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA94BFC201515330063B3F4 /* Main.storyboard */; };
 		8DA94C00201515330063B3F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA94BFF201515330063B3F4 /* Assets.xcassets */; };
 		8DA94C03201515330063B3F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA94C01201515330063B3F4 /* LaunchScreen.storyboard */; };
 		8DA94C0E201515330063B3F4 /* WhereCat_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA94C0D201515330063B3F4 /* WhereCat_iOSTests.swift */; };
 		8DA94C19201515330063B3F4 /* WhereCat_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA94C18201515330063B3F4 /* WhereCat_iOSUITests.swift */; };
+		8DA94C2720151B3F0063B3F4 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA94C2620151B3F0063B3F4 /* GameVC.swift */; };
 		F6CA81A81DE111F4FBB4C7EC /* Pods_WhereCat_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5E49F7901474096F66CF02 /* Pods_WhereCat_iOSUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +43,7 @@
 		52FA78BEF0EB42445A2F8953 /* Pods-WhereCat-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereCat-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhereCat-iOS/Pods-WhereCat-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		8DA94BF5201515330063B3F4 /* WhereCat-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhereCat-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA94BF8201515330063B3F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DA94BFA201515330063B3F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DA94BFA201515330063B3F4 /* TitleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleVC.swift; sourceTree = "<group>"; };
 		8DA94BFD201515330063B3F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DA94BFF201515330063B3F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DA94C02201515330063B3F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		8DA94C14201515330063B3F4 /* WhereCat-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WhereCat-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA94C18201515330063B3F4 /* WhereCat_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereCat_iOSUITests.swift; sourceTree = "<group>"; };
 		8DA94C1A201515330063B3F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA94C2620151B3F0063B3F4 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		B9F4704B1D9FCD7FE0668DC7 /* Pods_WhereCat_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereCat_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2EAB7731737987C898F53C /* Pods_WhereCat_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhereCat_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CABA6020DF4838C41E1414FF /* Pods-WhereCat-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhereCat-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhereCat-iOSTests/Pods-WhereCat-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				8DA94BF8201515330063B3F4 /* AppDelegate.swift */,
-				8DA94BFA201515330063B3F4 /* ViewController.swift */,
+				8DA94BFA201515330063B3F4 /* TitleVC.swift */,
+				8DA94C2620151B3F0063B3F4 /* GameVC.swift */,
 				8DA94BFC201515330063B3F4 /* Main.storyboard */,
 				8DA94BFF201515330063B3F4 /* Assets.xcassets */,
 				8DA94C01201515330063B3F4 /* LaunchScreen.storyboard */,
@@ -455,7 +458,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA94BFB201515330063B3F4 /* ViewController.swift in Sources */,
+				8DA94BFB201515330063B3F4 /* TitleVC.swift in Sources */,
+				8DA94C2720151B3F0063B3F4 /* GameVC.swift in Sources */,
 				8DA94BF9201515330063B3F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
