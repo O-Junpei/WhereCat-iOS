@@ -18,7 +18,6 @@ class TitleVC: UIViewController {
         viewHeight = self.view.frame.height
         viewWidth = self.view.frame.width
         
-        
         let logo = UIImageView()
         logo.image = UIImage(named:"logo")
         logo.frame = CGRect(x: viewWidth*0.1, y: viewHeight*0.1, width: viewWidth*0.8, height: viewHeight*0.1)
@@ -33,7 +32,9 @@ class TitleVC: UIViewController {
         
         let startBtn = UIButton()
         startBtn.frame = CGRect(x: viewWidth*0.35, y: viewHeight*0.7, width: viewWidth*0.3, height: viewHeight*0.1)
-        startBtn.setBackgroundImage(UIImage(named:"start"), for: UIControlState.normal)
+        startBtn.setImage(UIImage(named:"start"), for: UIControlState.normal)
+        startBtn.imageView?.contentMode = .scaleAspectFit
+        startBtn.backgroundColor = UIColor.blue
         startBtn.addTarget(self, action: #selector(startBtnClicked(sender:)), for:.touchUpInside)
         self.view.addSubview(startBtn)
 
