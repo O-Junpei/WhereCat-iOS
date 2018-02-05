@@ -35,7 +35,8 @@ class GameVC: UIViewController {
     var catsWidth:CGFloat!
     var catsHeight:CGFloat!
     
-    
+    var objects:Array = [Object.A, Object.B, Object.C, Object.D, Object.E, Object.F, Object.G, Object.H, Object.I, Object.J]
+    var objectsNum = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,7 +78,8 @@ class GameVC: UIViewController {
     @objc func taupStartBtn(sender: UIButton){
         sender.removeFromSuperview()
         
-        goObject(object: Object.J)
+        objectsNum = 0
+        goObject(object: objects[0])
     }
     
     func goObject(object:Object) {
@@ -86,12 +88,20 @@ class GameVC: UIViewController {
         let x = viewWidth * position[0] / 100
         let y = viewHeight * position[1] / 100
         
-        UIView.animate(withDuration: 0.5, delay: 0.0, options: .curveLinear, animations: {
+        UIView.animate(withDuration: 0.5, delay: 0.1, options: .curveLinear, animations: {
             
             self.catsImgView.frame = CGRect(x: x, y: y, width: self.catsWidth, height: self.catsHeight)
-
-        },completion:nil)
+            self.objectsNum = self.objectsNum + 1
+            
+        },completion: { _ in
+            // 完了時の処理
+            if self.objectsNum == self.objects.count{
+                return
+            }
+            self.goObject(object: self.objects[self.objectsNum])
+        })
     }
+    
     
     func getPosition(object:Object) -> Array<CGFloat>{
         
